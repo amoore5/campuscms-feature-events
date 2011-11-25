@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Calendar feature.
+ */
+
+include_once('campuscms_feature_calendar.features.inc');
