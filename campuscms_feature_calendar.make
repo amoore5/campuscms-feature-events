@@ -4,6 +4,7 @@ api = 2
 
 ; Contrib modules
 projects[insert] = 1.1
+projects[nodeformcols] = 1.x-dev
 projects[submit_field] = 1.3
 projects[views] = 3.0-rc3
 projects[date] = 2.x-dev
@@ -13,7 +14,6 @@ projects[addressfield] = 1.0-beta2
 projects[field_group] = 1.1
 projects[email] = 1.0
 projects[cck_phone] = 1.x-dev
-projects[nodeformcols] = 1.x-dev
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
