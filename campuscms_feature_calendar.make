@@ -13,6 +13,7 @@ projects[addressfield] = 1.0-beta2
 projects[field_group] = 1.1
 projects[email] = 1.0
 projects[cck_phone] = 1.x-dev
+projects[nodeformcols] = 1.x-dev
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
