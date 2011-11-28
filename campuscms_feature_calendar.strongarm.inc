@@ -13,6 +13,13 @@ function campuscms_feature_calendar_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'colorbox_path';
+  $strongarm->value = 'profiles/campuscms_profile/libraries/colorbox';
+  $export['colorbox_path'] = $strongarm;
+
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_event';
   $strongarm->value = array();
   $export['menu_options_event'] = $strongarm;
