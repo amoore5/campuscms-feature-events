@@ -21,7 +21,7 @@ function campuscms_feature_events_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'fullcalendar_path';
-  $strongarm->value = 'sites/profiles/campuscms_profile/libraries/fullcalendar/fullcalendar';
+  $strongarm->value = 'profiles/campuscms_profile/libraries/fullcalendar/fullcalendar';
   $export['fullcalendar_path'] = $strongarm;
 
   $strongarm = new stdClass;
