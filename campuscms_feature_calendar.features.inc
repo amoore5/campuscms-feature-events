@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * campuscms_feature_calendar.features.inc
+ * campuscms_feature_events.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function campuscms_feature_calendar_ctools_plugin_api() {
+function campuscms_feature_events_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "field_group" && $api == "field_group") {
     return array("version" => "1");
@@ -21,7 +21,7 @@ function campuscms_feature_calendar_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function campuscms_feature_calendar_views_api() {
+function campuscms_feature_events_views_api() {
   list($module, $api) = func_get_args();
   if ($module == "views" && $api == "views_default") {
     return array("version" => "3.0");
@@ -31,7 +31,7 @@ function campuscms_feature_calendar_views_api() {
 /**
  * Implements hook_node_info().
  */
-function campuscms_feature_calendar_node_info() {
+function campuscms_feature_events_node_info() {
   $items = array(
     'event' => array(
       'name' => t('Event'),

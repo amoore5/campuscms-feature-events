@@ -1,21 +1,21 @@
 <?php
 /**
  * @file
- * campuscms_feature_calendar.views_default.inc
+ * campuscms_feature_events.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function campuscms_feature_calendar_views_default_views() {
+function campuscms_feature_events_views_default_views() {
   $export = array();
 
   $view = new view;
-  $view->name = 'calendar';
+  $view->name = 'events';
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Calendar';
+  $view->human_name = 'Events';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -70,8 +70,8 @@ function campuscms_feature_calendar_views_default_views() {
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'calendar';
-  $export['calendar'] = $view;
+  $handler->display->display_options['path'] = 'events';
+  $export['events'] = $view;
 
   return $export;
 }

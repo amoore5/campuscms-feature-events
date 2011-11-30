@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * campuscms_feature_calendar.field_group.inc
+ * campuscms_feature_events.field_group.inc
  */
 
 /**
  * Implements hook_field_group_info().
  */
-function campuscms_feature_calendar_field_group_info() {
+function campuscms_feature_events_field_group_info() {
   $export = array();
 
   $field_group = new stdClass;

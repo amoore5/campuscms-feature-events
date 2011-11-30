@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * campuscms_feature_calendar.features.field.inc
+ * campuscms_feature_events.features.field.inc
  */
 
 /**
  * Implements hook_field_default_fields().
  */
-function campuscms_feature_calendar_field_default_fields() {
+function campuscms_feature_events_field_default_fields() {
   $fields = array();
 
   // Exported field: 'node-event-body'

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * campuscms_feature_calendar.features.menu_links.inc
+ * campuscms_feature_events.features.menu_links.inc
  */
 
 /**
  * Implements hook_menu_default_menu_links().
  */
-function campuscms_feature_calendar_menu_default_menu_links() {
+function campuscms_feature_events_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: menu-toolbar-administrator:node/add/event
