@@ -18,3 +18,6 @@ projects[views] = 3.0-rc3
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://jacklmoore.com/colorbox/colorbox.zip"
 libraries[colorbox][directory_name] = "colorbox"
+libraries[fullcalendar][download][type] = "get"
+libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.2.zip"
+libraries[fullcalendar][directory_name] = "fullcalendar"
