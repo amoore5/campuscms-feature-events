@@ -68,7 +68,7 @@ function campuscms_feature_events_views_default_views() {
     'event' => 'event',
   );
 
-  /* Display: Page */
+  /* Display: Calendar */
   $handler = $view->new_display('page', 'Calendar', 'page');
   $handler->display->display_options['path'] = 'events';
   $export['events'] = $view;

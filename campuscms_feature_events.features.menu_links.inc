@@ -14,7 +14,7 @@ function campuscms_feature_events_menu_default_menu_links() {
   $menu_links['menu-toolbar-administrator:node/add/event'] = array(
     'menu_name' => 'menu-toolbar-administrator',
     'link_path' => 'node/add/event',
-    'router_path' => 'node/add/event',
+    'router_path' => 'node/add',
     'link_title' => 'Event',
     'options' => array(
       'attributes' => array(
@@ -33,7 +33,7 @@ function campuscms_feature_events_menu_default_menu_links() {
   $menu_links['menu-toolbar-content-editor:node/add/event'] = array(
     'menu_name' => 'menu-toolbar-content-editor',
     'link_path' => 'node/add/event',
-    'router_path' => 'node/add/event',
+    'router_path' => 'node/add',
     'link_title' => 'Event',
     'options' => array(
       'attributes' => array(
@@ -52,7 +52,7 @@ function campuscms_feature_events_menu_default_menu_links() {
   $menu_links['menu-toolbar-site-manager:node/add/event'] = array(
     'menu_name' => 'menu-toolbar-site-manager',
     'link_path' => 'node/add/event',
-    'router_path' => 'node/add/event',
+    'router_path' => 'node/add',
     'link_title' => 'Event',
     'options' => array(
       'attributes' => array(
