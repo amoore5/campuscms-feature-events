@@ -22,7 +22,7 @@ function campuscms_feature_events_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Calendar';
+  $handler->display->display_options['title'] = 'Events';
   $handler->display->display_options['use_ajax'] = TRUE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -69,7 +69,7 @@ function campuscms_feature_events_views_default_views() {
   );
 
   /* Display: Page */
-  $handler = $view->new_display('page', 'Page', 'page');
+  $handler = $view->new_display('page', 'Calendar', 'page');
   $handler->display->display_options['path'] = 'events';
   $export['events'] = $view;
 
