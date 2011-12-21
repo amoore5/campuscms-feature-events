@@ -16,7 +16,7 @@ projects[field_group] = 1.1
 projects[fullcalendar] = 2.x-dev
 projects[insert] = 1.1
 projects[submit_field] = 1.3
-projects[views] = 3.0-rc3
+projects[views] = 3.0
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
