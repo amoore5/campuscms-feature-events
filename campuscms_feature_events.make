@@ -11,6 +11,7 @@ projects[email] = 1.0
 projects[field_group] = 1.1
 projects[fullcalendar] = 2.0-beta2
 projects[insert] = 1.1
+projects[nodeformcols] = 1.x-dev
 projects[submit_field] = 1.3
 projects[views] = 3.0
 
