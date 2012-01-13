@@ -1047,7 +1047,7 @@ function campuscms_feature_events_field_default_fields() {
           'label' => 'above',
           'module' => 'date',
           'settings' => array(
-            'format_type' => 'long',
+            'format_type' => 'long_time',
             'fromto' => 'both',
             'multiple_from' => '',
             'multiple_number' => '',
