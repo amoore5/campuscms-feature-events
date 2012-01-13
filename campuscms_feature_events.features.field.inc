@@ -1175,7 +1175,7 @@ function campuscms_feature_events_field_default_fields() {
           'progress_indicator' => 'bar',
         ),
         'type' => 'file_generic',
-        'weight' => '11',
+        'weight' => '9',
       ),
     ),
   );
@@ -1264,7 +1264,7 @@ function campuscms_feature_events_field_default_fields() {
           'progress_indicator' => 'bar',
         ),
         'type' => 'image_image',
-        'weight' => '10',
+        'weight' => '8',
       ),
     ),
   );
@@ -1337,7 +1337,84 @@ function campuscms_feature_events_field_default_fields() {
           'sort_options' => 1,
         ),
         'type' => 'select_or_other',
-        'weight' => '3',
+        'weight' => '4',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-event-field_event_location_address'
+  $fields['node-event-field_event_location_address'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_event_location_address',
+      'foreign keys' => array(),
+      'indexes' => array(),
+      'module' => 'addressfield',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'addressfield',
+    ),
+    'field_instance' => array(
+      'bundle' => 'event',
+      'default_value' => array(
+        0 => array(
+          'element_key' => 'node|event|field_event_location_address|und|0',
+          'thoroughfare' => '5200 North Lake Rd.',
+          'premise' => '',
+          'locality' => 'Merced',
+          'administrative_area' => 'CA',
+          'postal_code' => '95343',
+          'country' => 'US',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'addressfield',
+          'settings' => array(
+            'format_handlers' => array(
+              0 => 'address',
+            ),
+            'use_widget_handlers' => 1,
+          ),
+          'type' => 'addressfield_default',
+          'weight' => 13,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_event_location_address',
+      'label' => 'Address',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'addressfield',
+        'settings' => array(
+          'available_countries' => array(
+            'US' => 'US',
+          ),
+          'format_handlers' => array(
+            'address' => 'address',
+            'name-full' => 0,
+            'name-oneline' => 0,
+            'organisation' => 0,
+          ),
+        ),
+        'type' => 'addressfield_standard',
+        'weight' => '5',
       ),
     ),
   );
@@ -1389,7 +1466,7 @@ function campuscms_feature_events_field_default_fields() {
         'module' => 'submit_field',
         'settings' => array(),
         'type' => 'submit_field',
-        'weight' => '9',
+        'weight' => '7',
       ),
     ),
   );
