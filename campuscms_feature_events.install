@@ -1,0 +1,14 @@
+<?php
+/**
+ * Implements hook_install().
+ */
+function campuscms_feature_events_install() {
+  // Add custom breadcrumb.
+  $breadcrumb = array(
+    'paths' => array('events'),
+    'titles' => array('Events'),
+    'node_type' => 'event',
+  );
+
+  custom_breadcrumbs_save_breadcrumb($breadcrumb);
+}
