@@ -13,7 +13,7 @@ projects[fullcalendar] = 2.0-beta2
 projects[insert] = 1.1
 projects[nodeformcols] = 1.x-dev
 projects[submit_field] = 1.3
-projects[views] = 3.0
+projects[views] = 3.1
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
