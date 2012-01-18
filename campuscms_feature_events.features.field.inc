@@ -1022,6 +1022,8 @@ function campuscms_feature_events_field_default_fields() {
       'indexes' => array(),
       'module' => 'date',
       'settings' => array(
+        'cache_count' => '0',
+        'cache_enabled' => 1,
         'granularity' => array(
           'day' => 'day',
           'hour' => 'hour',
@@ -1079,12 +1081,10 @@ function campuscms_feature_events_field_default_fields() {
         'active' => 1,
         'module' => 'date',
         'settings' => array(
-          'display_all_day' => 0,
           'increment' => '15',
           'input_format' => 'm/d/Y - g:i:sa',
           'input_format_custom' => '',
           'label_position' => 'above',
-          'repeat_collapsed' => 0,
           'text_parts' => array(),
           'year_range' => '-3:+3',
         ),
@@ -1487,6 +1487,8 @@ function campuscms_feature_events_field_default_fields() {
   t('Phone');
   t('Submit Buttons');
   t('Title');
+  t('To specify where linked documents should display in your content, place your cursor in the "Body" field in the exact location you want the link then click "Insert." To remove the link, highlight the link text in the "Body" field, then press "Delete." Clicking "Remove" next to an uploaded document removes it from your site, but does not remove the link in your content.');
+  t('To specify where uploaded images should display in your content, place your cursor in the "Body" field in the exact location you want the image then click "Insert." To change the alignment of an image, right click on the image and "Image Properties," click the "Advanced" tab and enter "image-right" or "image-center." To remove an image, click on the image in the "Body" field, then press "Delete." Clicking "Remove" next to an uploaded image removes it from your site, not the page itself.');
 
   return $fields;
 }
