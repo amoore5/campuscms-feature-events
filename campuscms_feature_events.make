@@ -4,14 +4,26 @@ api = 2
 
 ; Contrib modules
 projects[addressfield] = 1.0-beta2
-projects[cck_phone] = 1.x-dev
+
+; 1.x Last commit December 18, 2011
+projects[cck_phone][type] = module
+projects[cck_phone][download][type] = git
+projects[cck_phone][download][url] = http://git.drupal.org/project/cck_phone.git
+projects[cck_phone][download][revision] = 13a2ca9b2e1f4f58b0e36f520be19b69e003b454
+
 projects[colorbox] = 1.2
 projects[date] = 2.0-rc1
 projects[email] = 1.0
 projects[field_group] = 1.1
 projects[fullcalendar] = 2.0-beta2
 projects[insert] = 1.1
-projects[nodeformcols] = 1.x-dev
+
+; 1.x Last commit October 16, 2011
+projects[nodeformcols][type] = module
+projects[nodeformcols][download][type] = git
+projects[nodeformcols][download][url] = http://git.drupal.org/project/nodeformcols.git
+projects[nodeformcols][download][revision] = 0120682a82fa03d7387cc215ab0cce6d3ae96a45
+
 projects[submit_field] = 1.3
 projects[views] = 3.1
 
