@@ -2,13 +2,24 @@
 /**
  * Implements hook_install().
  */
+/**
+ * Implements hook_install().
+ */
 function campuscms_feature_events_install() {
   // Add custom breadcrumb.
-  $breadcrumb = array(
-    'paths' => array('events'),
-    'titles' => array('Events'),
-    'node_type' => 'event',
-  );
+  $breadcrumb = new stdClass();
+  $breadcrumb->name = 'campuscms_feature_events-node-event';
+  $breadcrumb->paths = array('events');
+  $breadcrumb->titles = array('Events');
+  $breadcrumb->visibility_php = '';
+  $breadcrumb->node_type = 'event';
 
-  custom_breadcrumbs_save_breadcrumb($breadcrumb);
+  _custom_breadcrumbs_save_breadcrumb('custom_breadcrumbs', 'node', $breadcrumb);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function campuscms_feature_events_uninstall() {
+  db_delete('custom_breadcrumb')->condition('name', 'campuscms_feature_events-node-event')->execute();
 }
