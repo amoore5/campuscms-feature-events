@@ -9,8 +9,8 @@ function campuscms_feature_events_install() {
   // Add custom breadcrumb.
   $breadcrumb = new stdClass();
   $breadcrumb->name = 'campuscms_feature_events-node-event';
-  $breadcrumb->paths = array('events');
-  $breadcrumb->titles = array('Events');
+  $breadcrumb->titles = array('Events', '[node:title]');
+  $breadcrumb->paths = array('events', '<none>');
   $breadcrumb->visibility_php = '';
   $breadcrumb->node_type = 'event';
 
@@ -21,5 +21,5 @@ function campuscms_feature_events_install() {
  * Implements hook_uninstall().
  */
 function campuscms_feature_events_uninstall() {
-  db_delete('custom_breadcrumb')->condition('name', 'campuscms_feature_events-node-event')->execute();
+  db_delete('custom_breadcrumb')->condition('name', 'campuscms_feature_events-%', 'LIKE')->execute();
 }
