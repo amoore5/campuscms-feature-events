@@ -16,5 +16,11 @@ function campuscms_feature_events_install() {
  * Implements hook_uninstall().
  */
 function campuscms_feature_events_uninstall() {
-  db_delete('custom_breadcrumb')->condition('name', 'campuscms_feature_events-%', 'LIKE')->execute();
+  if (module_exists('custom_breadcrumbs')) {
+    db_delete('custom_breadcrumbs')->condition('name', 'campuscms_feature_events-%', 'LIKE')->execute();
+  }
+
+  if (module_exists('custom_breadcrumbs_views')) {
+    db_delete('custom_breadcrumbs_views')->condition('name', 'campuscms_feature_events-%', 'LIKE')->execute();
+  }
 }
