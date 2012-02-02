@@ -30,8 +30,6 @@ projects[fullcalendar][download][revision] = 147e0d2f263ec38d3f3243ec0ada0025ef0
 
 projects[insert] = 1.1
 
-projects[libraries] = 1.0
-
 ; 1.x Last commit October 16, 2011
 projects[nodeformcols][type] = module
 projects[nodeformcols][download][type] = git
