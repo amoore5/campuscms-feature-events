@@ -37,7 +37,7 @@ function _campuscms_feature_events_custom_breadcrumbs_views() {
   // Add the breadcrumb for the events page
   $breadcrumb = new stdClass();
   $breadcrumb->name = 'campuscms_feature_events-views-events';
-  $breadcrumb->titles = array('News');
+  $breadcrumb->titles = array('Events');
   $breadcrumb->paths = array('<none>');
   $breadcrumb->visibility_php = '';
   $breadcrumb->views_path = 'events';

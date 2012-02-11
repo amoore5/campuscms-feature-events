@@ -220,7 +220,7 @@ function campuscms_feature_events_field_default_fields() {
         'module' => 'select_or_other',
         'settings' => array(
           'available_options' => '',
-          'available_options_php' => 'return _ucm_predefined_options_departments();',
+          'available_options_php' => 'return array();',
           'markup_available_options_php' => '&lt;none&gt;',
           'other' => 'Add your own',
           'other_unknown_defaults' => 'available',
