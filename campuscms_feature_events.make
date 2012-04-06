@@ -13,7 +13,7 @@ projects[cck_phone][download][revision] = 61ccc9fb055f2eefa29e8d654ec2794ecb32b1
 
 projects[colorbox] = 1.2
 
-projects[date] = 2.2
+projects[date] = 2.3
 
 projects[email] = 1.0
 
