@@ -3,7 +3,7 @@ core = 7.x
 api = 2
 
 ; Contrib modules
-projects[addressfield] = 1.0-beta2
+projects[addressfield] = 1.0-beta3
 
 ; 1.x Last commit March 3, 2012
 projects[cck_phone][type] = module
@@ -13,9 +13,9 @@ projects[cck_phone][download][revision] = 61ccc9fb055f2eefa29e8d654ec2794ecb32b1
 
 projects[colorbox] = 1.3
 
-projects[date] = 2.5
+projects[date] = 2.6
 
-projects[email] = 1.0
+projects[email] = 1.1
 
 projects[field_group] = 1.1
 
