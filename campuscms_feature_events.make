@@ -30,7 +30,7 @@ projects[nodeformcols][download][url] = http://git.drupal.org/project/nodeformco
 projects[nodeformcols][download][revision] = 0120682a82fa03d7387cc215ab0cce6d3ae96a45
 
 projects[submit_field] = 1.3
-projects[views] = 3.3
+projects[views] = 3.4
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
