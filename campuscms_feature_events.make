@@ -15,13 +15,13 @@ projects[colorbox] = 1.3
 
 projects[date] = 2.6
 
-projects[email] = 1.1
+projects[email] = 1.2
 
 projects[field_group] = 1.1
 
-projects[fullcalendar] = 2.0-beta3
+projects[fullcalendar] = 2.0-rc1
 
-projects[insert] = 1.1
+projects[insert] = 1.2
 
 ; 1.x Last commit October 16, 2011
 projects[nodeformcols][type] = module
@@ -30,7 +30,7 @@ projects[nodeformcols][download][url] = http://git.drupal.org/project/nodeformco
 projects[nodeformcols][download][revision] = 0120682a82fa03d7387cc215ab0cce6d3ae96a45
 
 projects[submit_field] = 1.3
-projects[views] = 3.4
+projects[views] = 3.5
 
 ; Libraries
 libraries[colorbox][download][type] = "get"
