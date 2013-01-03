@@ -11,7 +11,7 @@ projects[cck_phone][download][type] = git
 projects[cck_phone][download][url] = http://git.drupal.org/project/cck_phone.git
 projects[cck_phone][download][revision] = 61ccc9fb055f2eefa29e8d654ec2794ecb32b119
 
-projects[colorbox] = 1.3
+projects[colorbox] = 1.4
 
 projects[date] = 2.6
 
@@ -19,7 +19,7 @@ projects[email] = 1.2
 
 projects[field_group] = 1.1
 
-projects[fullcalendar] = 2.0-rc1
+projects[fullcalendar] = 2.0
 
 projects[insert] = 1.2
 
